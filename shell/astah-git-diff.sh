@@ -1,8 +1,13 @@
 #!/bin/bash
 
 # ------------------------------------------------------------
+# Setting: 
+# 1. create symbolic link （e.g ln -sf ~/myscript/shell/astah-git-diff.sh /usr/local/bin/astah-git-diff）
+# 2. set a PATH
+#
 # Usage:
-#  astah-git-diff base-revision target-revesion filename
+# 1. cd <your repository that contain .astah file>
+# 2. astah-git-diff base-revision target-revesion filename
 # ------------------------------------------------------------
 
 WORKING_DIR=~/astah_diff_work
